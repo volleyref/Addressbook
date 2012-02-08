@@ -5,6 +5,7 @@ gem 'rails', '3.1.3'
 gem 'client_side_validations'
 
 gem 'omniauth-twitter'
+gem 'fb_graph'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -40,7 +41,6 @@ end
 
 group :test do
   gem 'cucumber-rails'
-#  gem 'capybara'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'factory_girl'
