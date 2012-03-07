@@ -1,4 +1,6 @@
 Addressbook::Application.routes.draw do
+  resources :authentications
+
   resources :contacts
 
   root to: 'contacts#index'

@@ -7,6 +7,7 @@ gem 'client_side_validations'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'fb_graph'
+gem 'nifty-generators', :group => :development
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -48,3 +49,4 @@ group :test do
   gem 'devise', '~> 1.4.3'
   gem 'email_spec'
 end
+gem "mocha", :group => :test
