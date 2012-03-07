@@ -5,6 +5,7 @@ gem 'rails', '3.1.3'
 gem 'client_side_validations'
 
 gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 gem 'fb_graph'
 
 # Bundle edge Rails instead:
